@@ -2,11 +2,7 @@
 
 ### Usage
 ```bash
-git clone git@github.com:1hPa/BT-rnd.git
-```
-```bash
-cd BT-rnd
-```
-```bash
-python3 main.py
+$ git clone git@github.com:1hPa/BT-rnd.git
+$ cd BT-rnd
+$ python3 main.py
 ```

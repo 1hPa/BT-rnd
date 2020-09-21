@@ -6,8 +6,13 @@ start = float(input())
 print("最大値を入力")
 end = float(input())
 print("----------")
+
+count = 0
+
 for i in range(n):
     l = [random.uniform(start,end)]
+    count += 1
     for j in l:
-        print(round(j,1))
+        bt = round(j,1)
+        print(str(count)+'{}'.format(': ')+str(bt))
 print("----------")
